@@ -1,23 +1,61 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+/*/.ipynb_checkpoints
+*/.ipynb_checkpoints
+# C extensions
+*.so
+
+# Distribution / packaging
+lecture-2/aircraft_damage_dataset_v1
+lecture-2/aircraft_damage_dataset_v1.tar
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+.DS_Store
+.ipynb_checkpoints
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+*.kafe
+*.vscode
+*.pydevproject
+*.project
+*DS_Store
+__pycashe__
+# Sphinx documentation
+docs/_build/
+
