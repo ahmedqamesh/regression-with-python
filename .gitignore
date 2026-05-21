@@ -5,7 +5,8 @@ __pycache__/
 */.ipynb_checkpoints
 # C extensions
 *.so
-
+/*/.RData
+/*/.RHistory
 # Distribution / packaging
 lecture-2/aircraft_damage_dataset_v1
 lecture-2/aircraft_damage_dataset_v1.tar
